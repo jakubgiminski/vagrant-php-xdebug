@@ -1,4 +1,4 @@
-# unicorn-domain dev environment
+# Developer environment for the unicorn-domain project 
 
 This is a simple vagrant setup of `Ubuntu` with `php7.3` + `xdebug`. Clone it next to the `unicorn-domain`, cd into it and run `vagrant up`.
 Once the build is done you can ssh into it (`vagrant ssh`).
