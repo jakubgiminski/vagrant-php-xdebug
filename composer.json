@@ -1,0 +1,12 @@
+{
+    "name": "gigabyte-software/unicorn-domain-dev-env",
+    "description": "Vagrant config with php7.3 and xdebug",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jakub Giminski",
+            "email": "jakub@gigabyte.software"
+        }
+    ],
+    "require": {}
+}
