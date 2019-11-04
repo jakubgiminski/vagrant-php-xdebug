@@ -14,7 +14,7 @@ opts.each do |opt, arg|
 end
 
 Vagrant.configure("2") do |config|
-  config.vm.box = "ubuntu/trusty64"
+  config.vm.box = "ubuntu/xenial64"
   config.vm.synced_folder "#{projectDir}", "/srv"
   config.vm.provision "shell", path: "provision.sh"
 end
